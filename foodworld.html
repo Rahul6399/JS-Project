@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foodworld</title>
+	<link rel="stylesheet" type="text/css" href="css/foodworld.css">
+	<script type="text/javascript" src="js/foodworld.js"></script>
+</head>
+<body style="background-image: url(image/bg.jpg);">
+	<h1>FOOD WORLD</h1>
+	
+	<div id="food">
+		<button tabindex="1" class="food" onclick="home()">Home</button>
+		
+		<button tabindex="2" class="food" onclick="india()">Indian</button>
+		<button tabindex="3" class="food" onclick="southindia()">South Indian</button>
+		<button tabindex="4" class="food" onclick="america()">American</button>
+		
+	</div>
+	<label for="input" id="search">Search....</label>
+	<input tabindex="5" type="text" id="input" onkeyup="search()" name="text">
+	<div id = "basic">
+		<p id="root"></p>
+		<div id="america">
+			<p tabindex="6" class="america" id="burger" style="background-image: url(image/burger.jfif)">Burger</p>
+			<p tabindex="7" class="america" id="pizza" style="background-image: url(image/pizza.jpg)">Pizza</p>
+			<p tabindex="8" class="america" id="taco" style="background-image: url(image/tco.jfif)">Taco</p>
+			
+		</div>
+		<div id="india">
+			<p tabindex="10" class="india" id="biryani" style="background-image: url(image/biryani.jfif)">Biryani</p>
+			<p tabindex="11" class="india" id="samosa" style="background-image: url(image/samosa.jfif)">Samosa</p>
+			<p tabindex="12" class="india" id="rasgulla" style="background-image: url(image/rasgulla.jfif)">Rasgulla</p>
+			<p tabindex="13" class="india" id="pav" style="background-image: url(image/pav.jpeg)">Pav Bhaji</p>
+		</div>
+		<div id="southindia"></div>
+			<p tabindex="14" class="southindia" id="dosa" style="background-image: url(image/dosa.jfif)">Dosa</p>
+			<p tabindex="15" class="southindia" id="idli" style="background-image: url(image/idlii.jpg)">Idli</p>
+			
+		</div>
+	</div>
+	
+</body>
+</html>

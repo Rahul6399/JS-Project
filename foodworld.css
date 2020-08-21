@@ -1,0 +1,89 @@
+.food{
+	display: inline-block;
+    border: transparent;
+    background-color:rgb(53, 148, 192);
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 40px;
+    width: 20%;
+    height: 40px;
+    
+}
+
+
+#food {
+	text-align: center;
+}
+
+h1 {
+    width: 30%;
+    margin-left: 34%;
+    margin-right: 70%;
+    text-align: center;
+    background: rgb(128, 172, 223);
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    border: transparent;
+    border-radius: 40px;
+    
+}
+
+#search {
+	padding: 10px;
+    color: blue;
+    border: outset;
+    
+    margin-left: 20%;
+    margin-right: 1%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    
+}
+
+#input{
+	width: 50%;
+    padding: 5px;
+    margin: 5px;
+    border: inset;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+#root {
+	display: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+p.america, p.india, p.southindia {
+	display: inline-block;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	width: 190px;
+	height: 240px;
+	border: thin;
+	border-color: transparent;
+	border-radius: 10px;
+	background: black;
+	background-size: 100%;
+	
+	text-align: center;
+	padding: 10px;
+	margin-left: 55px;
+	margin-right: 45px;
+	float: left;
+}
+
+p.america:hover, p.india:hover, p.southindia:hover, p.america:focus, p.hindi:focus, p.southindia:focus {
+	text-transform: uppercase;
+	box-shadow: 17px -8px 20px 0px #000000;
+}
